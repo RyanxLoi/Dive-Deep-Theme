@@ -1,0 +1,15 @@
+<div class="section-div" id="about-div">
+    
+    
+    <div id="about-div-desc">
+        <h2 id="greeting">Hi, I am {{site.name}}</h2>
+    <img id="profile-image" src="{{site.profile_image}}">
+    
+    <p id="about">{{site.about}}</p>
+    </div>
+    <div class="about-button-group">
+       {% for link in site.links %}
+       <a href="{{link_url}}"><button class="link">{{ link.link_label }}</button></a>
+       {% endfor %}
+    </div>
+</div>

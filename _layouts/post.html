@@ -1,0 +1,13 @@
+{% include head.html %}
+{% include header.html %}
+<h1 id="project-title">{{ page.title }}</h1>
+<h2 id="project-subtitle">{{ page.subtitle }}</h2>
+<img id="project-image" src = "{{page.image}}">
+
+<div id="project-desc">
+{{ content }}
+</div>
+
+<a href="/projects"><button class="see-project" id="see-more-projects">Back to Projects Page</button></a>
+
+{% include footer.html %}
