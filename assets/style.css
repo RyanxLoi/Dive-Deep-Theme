@@ -368,6 +368,7 @@ button.see-project{
 button.see-project:hover{
   background-color: #FFF;
   color: #000;
+  text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -497,7 +498,12 @@ h2#project-subtitle{
 
 button#see-more-projects{
   display: block;
+  width: 300px;
   margin: 24px auto 24px auto;
+}
+
+button#see-more-projects {
+  text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -724,7 +730,8 @@ button#see-more-projects{
   input[type="button"].button-primary {
     color: #FFF;
     background-color: var(--primary);
-    border-color: var(--primary);}
+    border-color: var(--primary);
+  text-decoration: none;}
   .button.button-primary:hover,
   button.button-primary:hover,
   input[type="submit"].button-primary:hover,
@@ -737,7 +744,8 @@ button#see-more-projects{
   input[type="button"].button-primary:focus {
     color: #FFF;
     background-color: var(--primary);
-    border-color: var(--primary);}
+    border-color: var(--primary);
+  text-decoration: none;}
   
   
   /* Forms
